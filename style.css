@@ -44,10 +44,24 @@ body {
     padding-left: 300px;
 }
 
+.my-exp {
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 200px;
+}
+
 .contact-form {
     padding-left: 150px;
 }
 
 .contact-form legend, p, label {
     color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
