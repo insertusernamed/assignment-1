@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
 </head>
 <body>
-    
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a class="current" href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Me</a></li>
+                <li><a href="./contact.html">Contact Moi</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <form class="contact-form" method='get' action="./thanks.html" netlify>
+        <fieldset class=field>
+            <legend class="legend">User Information</legend>
+            <div>
+                <label class="label" for="firstName">Name:</label>
+                <br>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label class="label" for="email">Email:</label>
+                <br>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label class="label" for="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">Phone Number:</label>
+                <br>
+                <input type="tel" name="phone" id="phone">
+            </div>
+        </fieldset>
+
+        <fieldset class=field>
+            <legend class="legend">What is the purpose of contact?</legend>
+            <div>
+                <br>
+                <label class="label" for="select">Please select one</label>
+                <br>
+                <select name="select" id="select">
+                    <option value="op0">General Query</option>
+                    <option value="op1">Business Proposal</option>
+                    <option value="op2">Feedback</option>
+                    <option value="op3">Complaint</option>
+                </select>
+            </div>
+            <div>
+                <br>
+                <p class="label">Message you want to convey:</p>
+                <textarea name="bigtext" id="bigtext" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" style="width:10%;height:10%; background-color: rgb(250, 250, 250);">
+    </form>
 </body>
 </html>

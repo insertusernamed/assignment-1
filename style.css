@@ -43,3 +43,11 @@ body {
     color:rgb(184, 184, 184);
     padding-left: 300px;
 }
+
+.contact-form {
+    padding-left: 150px;
+}
+
+.contact-form legend, p, label {
+    color: white;
+}
