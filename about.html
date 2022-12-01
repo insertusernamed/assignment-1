@@ -1,46 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <title>About Me</title>
 </head>
+
 <body>
-    <div class="sidebar">
-        <nav>
-            <ul>
-                <li><a class="current" href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Me</a></li>
-                <li><a href="./contact.html">Contact Moi</a></li>
+    <section id="navigation">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Me</a>
+                </li>
             </ul>
         </nav>
-    </div>
+    </section>
 
-    <main>
-        <div>
-            <h1 class="heading">
-                Who really <em><span style="color: rgb(187, 62, 3);">is</span></em> this guy?
-            </h1>
-        </div>
+    <section id="about-header">
+        <main>
+            <img src="./img/about-me.png" alt="self-portrait" style="float: left;">
 
-        <div>
-            <h2 class="sub-heading">The <em><span style="color: rgb(148, 210, 189);">most important</span></em> part: <span style="color: white;">Experience!</span></h2>
+            <h1 class="about-h1" style="color: white;">Hello! I'm <span style="color: rgb(152,68,71);">Daniel Y!</span></h1>
 
-            <ul class='my-exp'>
-                <li>Python - 8 Years</li>
-                <li>Java - 5 Years</li>
-                <li>C++ - 4 Years</li>
-                <li>C# - 3 Years</li>
-            </ul>
-        </div>
+            <p style="padding-top: 300px;">My three major interests and passions are Computer Science, Maths and Music,
+                and I believe that there is a creative fusion between all these disciplines. I engage wholeheartedly in
+                these areas both in my school courses and out of school, and hope that I will be able to continue doing
+                so on my chosen course and in the extra-curricular opportunities at university...</p>
+            <br>
+            <p>Most users see a computer at the front and use the graphical user interfaces. The first time I used a
+                computer, it intrigued me to know how these interfaces work, the theory behind computers and the
+                methodology of how they work...</p>
 
-        <div>
-            <ul class="my-exp">
-                <li>[list of hobbies and personal information here]</li>
-            </ul>
-        </div>
-    </main>
+            <div class="exp">
+                <p>Python</p>
+                <div class="container">
+                    <div class="skills python">90%</div>
+                </div>
+                <p>HTML</p>
+                <div class="container">
+                    <div class="skills html">80%</div>
+                </div>
+                <p>Java</p>
+                <div class="container">
+                    <div class="skills java">75%</div>
+                </div>
+                <p>CSS</p>
+                <div class="container">
+                    <div class="skills css">40%</div>
+                </div>
+            </div>
+        </main>
+    </section>
 </body>
+
 </html>

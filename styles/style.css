@@ -7,7 +7,20 @@ body {
 
 #header {
     height: 100vh;
-    background: url(/img/background.png) repeat 0 0;
+    background: url(/img/background.png) repeat;
+}
+
+body {
+    background: url(/img/background2.png) repeat;
+}
+
+h1 {
+    font-family: Junegull;
+}
+
+p {
+    font-size: 20px;
+    font-family: Tiempos;
 }
 
 .user-box {
@@ -17,32 +30,97 @@ body {
     position: absolute;
 }
 
-.heading {
-    font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:rgb(184, 184, 184);
-    padding-left: 250px;
+.user-box h1 {
+    color: rgb(173, 217, 244);
+    margin: 15px;
+    font-weight: bold;
 }
 
-.sub-heading {
-    font-size: 35px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:rgb(184, 184, 184);
-    padding-left: 300px;
+.user-box p {
+    color: rgb(173, 217, 244);
 }
 
-.my-exp {
-    list-style: none;
+@font-face {
+    font-family: Tiempos;
+    src: url("/tiempos.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Junegull;
+    src: url("/junegull.ttf") format("truetype");
+}
+
+#main {
+    height: 70vh;
+    background: url(/img/background2.png) repeat;
+}
+
+.content {
+    padding: 100px;
+}
+
+.content img {
+    padding-right: 30px;
+    float: left;
+    width: 40%;
+    height: 40%;
+}
+
+.content p {
+    font-size: 19px;
+    color: rgb(173, 217, 244);
+}
+
+.about-h1 {
+    font-size: 60px;
+    float: right;
+    padding-top: 70px;
+    padding-right: 500px;
+}
+
+.exp {
+    padding: 100px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
-    font-size: 30px;
-    padding-left: 200px;
+}
+
+.html {
+    width: 80%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 40%;
+    background-color: rgb(71,108,155);
+}
+
+.python {
+    width: 90%;
+    background-color: rgb(152, 68, 71);
+}
+
+.java {
+    width: 75%;
+    background-color: rgb(255, 217, 76);
 }
 
 .contact-form {
     padding-left: 150px;
 }
 
-.contact-form legend, p, label {
+.contact-form legend,
+p,
+label {
     color: white;
 }
 
