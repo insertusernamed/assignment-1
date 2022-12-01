@@ -70,6 +70,11 @@ nav {
     background: url(/img/background2.png) repeat;
 }
 
+.about-table {
+    table-layout: fixed;
+    width: 80%;
+}
+
 .content {
     padding: 100px;
 }
@@ -126,7 +131,7 @@ nav {
 
 .java {
     width: 75%;
-    background-color: rgb(255, 217, 76);
+    background-color: rgb(190, 160, 53);
 }
 
 .contact-form {
