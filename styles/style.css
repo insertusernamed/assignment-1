@@ -23,6 +23,21 @@ p {
     font-family: Tiempos;
 }
 
+nav {
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 .user-box {
     top: 50%;
     left: 50%;
@@ -101,7 +116,7 @@ p {
 
 .css {
     width: 40%;
-    background-color: rgb(71,108,155);
+    background-color: rgb(71, 108, 155);
 }
 
 .python {
@@ -115,7 +130,9 @@ p {
 }
 
 .contact-form {
-    padding-left: 150px;
+    background: url(/img/background.png) repeat;
+    text-align: center;
+    padding: 100px;
 }
 
 .contact-form legend,
